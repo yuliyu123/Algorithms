@@ -4,6 +4,10 @@
 #include <vector>
 #include <algorithm>
 #include "leetcode/CountOfOne.h"
+#include "leetcode/LinkedList.h"
+
+#define var int;
+#define print_var(var) printf("%d\n", var);
 
 using namespace std;
 
@@ -11,6 +15,12 @@ typedef std::function<void(int)> Callback;
 
 template<typename T>
 T funcTest(int i, int i1);
+
+template <typename T>
+void printFunc(T arg)
+{
+    std::cout << arg << std::endl;
+}
 
 void callback(int input)
 {
@@ -52,12 +62,33 @@ void bubbleSort(T type, Args... args)
     std::for_each(vec.begin(), vec.end(), echo_func);
 }
 
+
 int main()
 {
-    bubbleSort(0, 7, 3, 1, 2, 5, 2, 3, 14, 9);
-//    bubbleSort(1.2, 0.1, 1.1, 5.4, 2.5, 5.3, 2.01, 3.14, 14.3, 9.8);
-//    for (int i = 6; --i; i > 0) {
-//        std::cout << i << std::endl;
-//    }
+    unsigned int LEN = sizeof(Node);
+    print_var(LEN);
+    LinkedList* list = new LinkedList;
+    Node* head = new Node;
+    Node* node_01 = new Node;
+    Node* node_02 = new Node;
+    Node* node_03 = new Node;
+    Node* node_04 = new Node;
+    head->data = 0;
+    node_01->data = 1;
+    node_02->data = 2;
+    node_03->data = 3;
+    node_04->data = 4;
+    head->nextNode = node_01;
+    node_01->nextNode = node_02;
+    node_02->nextNode = node_03;
+    node_03->nextNode = node_04;
+    node_04->nextNode = nullptr;
+
+    printf("%d\n", head->data);
+    list->traverse(head);
+
+    list->reverse(head);
+    list->traverse(head);
+    delete head;
     return 0;
 }
