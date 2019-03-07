@@ -27,21 +27,35 @@ public:
         node_->data = node->data;
     }
 
-    void reverse(Node* head)
+    Node* reverse(Node* head)
     {
-        Node* pre;
-        Node* cur;
-        Node* next;
+        Node* pre = head;
+        Node* cur = head->nextNode;
+        Node* tmp;
 
-        while (head)
+        while (cur)
         {
-            cur = head;
-            next = head->nextNode;
-            next->nextNode = cur;
-//            cur->nextNode = nullptr;
+            tmp = cur->nextNode;
+            cur->nextNode = pre;
             pre = cur;
-            head = head->nextNode;
+            cur = tmp;
         }
+        head->nextNode = nullptr;
+        return pre;
+    }
+
+    Node* reverseRecursive(Node* head)
+    {
+        Node* pre = head;
+        if (head->nextNode == nullptr)
+        {
+            return head;
+        }
+
+        Node* reverseNode = reverseRecursive(head->nextNode);
+        head->nextNode = head;
+        head->nextNode = nullptr;
+        return reverseNode;
     }
 
     void traverse(Node* node)
