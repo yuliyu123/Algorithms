@@ -53,7 +53,7 @@ public:
         }
 
         Node* reverseNode = reverseRecursive(head->nextNode);
-        head->nextNode = head;
+        head->nextNode->nextNode = head;
         head->nextNode = nullptr;
         return reverseNode;
     }
@@ -67,9 +67,23 @@ public:
         }
     }
 
-    void addNode(Node* node)
+    Node* addNode(Node* head, int i, int index)
     {
+        Node* newNode;
+        newNode->data = i;
+        if (index == 1) {
+            newNode->nextNode = head;
+            return newNode;
+        }
 
+        Node* tmp = head;
+        for (int i = 1; i < index; i++)
+        {
+            tmp = tmp->nextNode;
+        }
+        newNode->nextNode = tmp->nextNode;
+        tmp->nextNode = newNode;
+        return head;
     }
 
     void delNode(Node* node)
@@ -92,5 +106,39 @@ public:
 private:
     Node* node_;
 };
+
+//int main() {
+//    unsigned int LEN = sizeof(Node);
+//    print_var(LEN);
+//    LinkedList* list = new LinkedList;
+//    Node* head = new Node;
+//    Node* node_01 = new Node;
+//    Node* node_02 = new Node;
+//    Node* node_03 = new Node;
+//    Node* node_04 = new Node;
+//    head->data = 0;
+//    node_01->data = 1;
+//    node_02->data = 2;
+//    node_03->data = 3;
+//    node_04->data = 4;
+//    head->nextNode = node_01;
+//    node_01->nextNode = node_02;
+//    node_02->nextNode = node_03;
+//    node_03->nextNode = node_04;
+//    node_04->nextNode = nullptr;
+//
+//    printf("%d\n", head->data);
+//    list->traverse(head);
+//
+//    std::cout << "start reverseRecursive" << std::endl;
+//    Node* reverseNode = list->reverseRecursive(head);
+//    list->traverse(reverseNode);
+//
+//    Node* newNode;
+//    newNode->data = 6;
+//    Node* newLink = list->addNode(head, 2, 22);
+//    list->traverse(newLink);
+//    delete head;
+//}
 
 #endif //ALGORITHMMS_LINKEDLIST_H
