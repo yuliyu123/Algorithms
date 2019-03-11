@@ -67,8 +67,12 @@ public:
         }
     }
 
+    /*
+     * linklist add and delete's complexity is O(1), but search is O(n)
+     * */
     Node* addNode(Node* head, int i, int index)
     {
+        std::cout << "linklist add node start" << std::endl;
         Node* newNode;
         newNode->data = i;
         if (index == 1) {
@@ -86,15 +90,57 @@ public:
         return head;
     }
 
-    void delNode(Node* node)
+    Node* delNode(Node* head, Node* toBeDeleted)
     {
+        std::cout << "linklist del node start" << std::endl;
+        if (!head or !toBeDeleted)
+        {
+            return nullptr;
+        }
 
+        Node* tmp = head;
+        while (tmp)
+        {
+            if (tmp->nextNode == toBeDeleted)
+            {
+                tmp->nextNode = tmp->nextNode->nextNode;
+                break;
+            }
+            tmp = tmp->nextNode;
+        }
+        return head;
     }
 
     // 合并链表
-    void merge(Node* node_01, Node* node_02)
+    Node* merge(Node* head_01, Node* head_02)
     {
+        std::cout << "linklist del node start" << std::endl;
+        if (!head_01 or !head_02) return nullptr;
 
+        Node* newLink;
+        while (head_01 and head_02)
+        {
+            if (head_01->data < head_02->data)
+            {
+                head_01->nextNode = head_02;
+            } else
+            {
+                head_02->nextNode = head_01;
+            }
+            head_01 = head_01->nextNode;
+            head_02 = head_02->nextNode;
+        }
+
+        while (head_01)
+        {
+            head_01->nextNode = head_01;
+            head_01 = head_01->nextNode;
+        }
+        while (head_02)
+        {
+            head_02->nextNode = head_02;
+            head_02 = head_02->nextNode;
+        }
     }
 
     // 判断链表是否相交
