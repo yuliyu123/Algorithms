@@ -17,8 +17,3 @@ using namespace std;
 #define print_var(var) printf("%d\n", var);
 
 #endif //ALGORITHMMS_COMMON_H
-
-int main()
-{
-    return 0;
-}
