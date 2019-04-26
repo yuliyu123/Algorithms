@@ -1,3 +1,23 @@
+//
+// Created by loohan on 2019/4/26.
+//
+
+#ifndef ALGORITHMMS_LRU_H
+#define ALGORITHMMS_LRU_H
+
+#include <iostream>
+#include <memory>
+#include <string>
+#include <functional>
+#include <map>
+#include <stdio.h>
+#include <string.h>
+#include <unordered_map>
+#include <list>
+#include <algorithm>
+
+using namespace std;
+
 #include <iostream>
 #include <memory>
 #include <string>
@@ -13,11 +33,11 @@ using namespace std;
 
 class LRUCache
 {
-struct Node
-{
-    int key;
-    int value;
-};
+    struct Node
+    {
+        int key;
+        int value;
+    };
 
 private:
     int capacity_;
@@ -94,3 +114,7 @@ int main()
     cout << lru->get(1) << endl;
     return 0;
 }
+
+
+
+#endif //ALGORITHMMS_LRU_H
