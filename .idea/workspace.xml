@@ -5,12 +5,13 @@
       <config projectName="algorithmms" targetName="algorithmms" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="fc60e09c-5eb4-4665-b9d9-cb8aeacdd888" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/leetcode/string/RemoveRepeatedBlanks.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/link/link_traverse.cpp" afterDir="false" />
@@ -54,6 +55,26 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sort&amp;search/sort/QuickSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/sort&amp;search/sort/QuickSort.h" afterDir="false" />
+=======
+    <list default="true" id="fc60e09c-5eb4-4665-b9d9-cb8aeacdd888" name="Default Changelist" comment="add LRUCache">
+      <change afterPath="$PROJECT_DIR$/base/MyString.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/printInOrder.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/dayOfWeek.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/interview/amazon/GetActorNames.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/palindromeNumber.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithmms.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithmms.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithmms.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithmms.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithmms.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithmms.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithmms.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithmms.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithmms.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algorithmms.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/algorithmms.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/algorithmms.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/LRU.h" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/LRU.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,9 +83,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="algorithmms" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,11 +151,22 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+              <folding>
+                <element signature="e#312#331#0" expanded="true" />
+              </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
         <entry file="file://$APPLICATION_HOME_DIR$/bin/cmake/mac/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -142,10 +192,17 @@
               <folding>
                 <element signature="e#100#119#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/concurrency/printInOrder.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -163,14 +220,35 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/add_LRUCache.patch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< Updated upstream
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
+=======
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>find</find>
+      <find>bubbleSort</find>
+      <find>qsort</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\loohan\CLionProjects\algorithmms</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+>>>>>>> Stashed changes
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -187,21 +265,59 @@
         <option value="$PROJECT_DIR$/sort&amp;search/search/BinarySearch.h" />
         <option value="$PROJECT_DIR$/leetcode/CountOfOne.h" />
         <option value="$PROJECT_DIR$/leetcode/note/base.md" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/leetcode/LinkedList.h" />
         <option value="$PROJECT_DIR$/Common.h" />
         <option value="$PROJECT_DIR$/sort&amp;search/sort/QuickSort.h" />
         <option value="$PROJECT_DIR$/link/link_traverse.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/leetcode/string/RemoveRepeatedBlanks.cpp" />
+=======
+        <option value="$PROJECT_DIR$/T.h" />
+        <option value="$PROJECT_DIR$/swordToOffer/ReplaceBlank.h" />
+        <option value="$PROJECT_DIR$/swordToOffer/StackToQueue.h" />
+        <option value="$PROJECT_DIR$/sort&amp;search/sort/BubbleSort.h" />
+        <option value="$PROJECT_DIR$/Util.h" />
+        <option value="$PROJECT_DIR$/base/CallBack.h" />
+        <option value="$PROJECT_DIR$/swordToOffer/ClockWisePrint.h" />
+        <option value="$PROJECT_DIR$/swordToOffer/BinaryTree.h" />
+        <option value="$PROJECT_DIR$/swordToOffer/LenMoreHalf.h" />
+        <option value="$PROJECT_DIR$/swordToOffer/MaxestSubArr.h" />
+        <option value="$PROJECT_DIR$/leetcode/LinkedList.h" />
+        <option value="$PROJECT_DIR$/Common.h" />
+        <option value="$PROJECT_DIR$/leetcode/BrokenCalc.h" />
+        <option value="$PROJECT_DIR$/leetcode/LRU.h" />
+        <option value="$PROJECT_DIR$/base/MyString.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/timercpp.h" />
+        <option value="$PROJECT_DIR$/leetcode/dayOfWeek.cpp" />
+        <option value="$PROJECT_DIR$/concurrency/printInOrder.h" />
+        <option value="$PROJECT_DIR$/concurrency/printInOrder.cpp" />
+        <option value="$PROJECT_DIR$/leetcode/palindromeNumber.cpp" />
+        <option value="$PROJECT_DIR$/leetcode/interview/amazon/GetActorNames.cpp" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
+=======
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="NcTzkLnM" />
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="237" />
+    <option name="y" value="39" />
+    <option name="width" value="1920" />
+    <option name="height" value="921" />
+>>>>>>> Stashed changes
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -228,9 +344,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+<<<<<<< Updated upstream
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+=======
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+>>>>>>> Stashed changes
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -271,6 +397,7 @@
       <updated>1550027573005</updated>
       <workItem from="1550027576370" duration="820000" />
       <workItem from="1550112100565" duration="35000" />
+<<<<<<< Updated upstream
       <workItem from="1551061613992" duration="16883000" />
       <workItem from="1551091698077" duration="812000" />
       <workItem from="1551100414234" duration="216000" />
@@ -319,11 +446,158 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32545933" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32939634" />
       <window_info active="true" anchor="bottom" id="Messages" order="13" sideWeight="0.49928468" visible="true" weight="0.32545933" />
+=======
+      <workItem from="1551061613992" duration="17205000" />
+      <workItem from="1551146554321" duration="8994000" />
+      <workItem from="1551168134429" duration="3517000" />
+      <workItem from="1551839332519" duration="10754000" />
+      <workItem from="1551950096474" duration="9923000" />
+      <workItem from="1552268698198" duration="5748000" />
+      <workItem from="1552291811193" duration="8856000" />
+      <workItem from="1552553865882" duration="1936000" />
+      <workItem from="1552886885141" duration="11000" />
+      <workItem from="1552887040672" duration="3743000" />
+      <workItem from="1553149079571" duration="1046000" />
+      <workItem from="1553218970124" duration="58000" />
+      <workItem from="1553581805722" duration="8176000" />
+      <workItem from="1554086863978" duration="2596000" />
+      <workItem from="1554368911559" duration="1869000" />
+      <workItem from="1554703866543" duration="782000" />
+      <workItem from="1555379379303" duration="202000" />
+      <workItem from="1555405675440" duration="7214000" />
+      <workItem from="1555552861030" duration="13475000" />
+      <workItem from="1555903158498" duration="3150000" />
+      <workItem from="1556073462528" duration="5669000" />
+      <workItem from="1556173475933" duration="9742000" />
+      <workItem from="1557106726521" duration="10000" />
+      <workItem from="1557454461268" duration="510000" />
+      <workItem from="1557455378581" duration="19000" />
+      <workItem from="1557478645385" duration="3578000" />
+      <workItem from="1557734579727" duration="2907000" />
+      <workItem from="1558082690217" duration="672000" />
+      <workItem from="1558321768988" duration="2888000" />
+      <workItem from="1558331550021" duration="13224000" />
+      <workItem from="1558936467997" duration="1230000" />
+      <workItem from="1558946143724" duration="689000" />
+      <workItem from="1559009484329" duration="12900000" />
+      <workItem from="1559531471456" duration="7919000" />
+      <workItem from="1559548812002" duration="6182000" />
+      <workItem from="1559789524110" duration="1551000" />
+      <workItem from="1560148367221" duration="5599000" />
+      <workItem from="1560838757429" duration="3473000" />
+      <workItem from="1561341252376" duration="4975000" />
+      <workItem from="1562035380861" duration="599000" />
+      <workItem from="1562749727199" duration="2640000" />
+      <workItem from="1563959902816" duration="1519000" />
+      <workItem from="1569808810465" duration="2474000" />
+      <workItem from="1570845746059" duration="7687000" />
+      <workItem from="1571278434205" duration="151000" />
+      <workItem from="1571802441881" duration="2473000" />
+      <workItem from="1572316659067" duration="4149000" />
+      <workItem from="1572428032649" duration="1650000" />
+      <workItem from="1572486500273" duration="12651000" />
+      <workItem from="1572587649399" duration="215000" />
+      <workItem from="1572587909128" duration="630000" />
+    </task>
+    <task id="LOCAL-00001" summary="lambda expr study">
+      <created>1551171295337</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551171295337</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add linklist">
+      <created>1551868304561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551868304561</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add linklist">
+      <created>1551952916496</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551952916497</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactor dir">
+      <created>1552039004964</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552039004964</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add callback">
+      <created>1552039138186</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552039138186</updated>
+    </task>
+    <task id="LOCAL-00006" summary="modify linked list and binary tree">
+      <created>1552297679471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552297679471</updated>
+    </task>
+    <task id="LOCAL-00007" summary="modify common.h">
+      <created>1552297872769</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552297872769</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add LRUCache">
+      <created>1556268616111</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556268616112</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="230685000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48725212" visible="true" weight="0.24529845" />
+      <window_info id="Favorites" order="1" sideWeight="0.5127479" side_tool="true" weight="0.26655763" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34380776" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36414048" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32532346" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.6081331" />
+      <window_info anchor="bottom" id="File Transfer" order="8" visible="true" weight="0.32664233" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32532346" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.31792977" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.34380776" />
+      <window_info anchor="right" id="leetcode" side_tool="true" />
+      <window_info anchor="right" id="Cargo" />
+>>>>>>> Stashed changes
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Remote Host" order="4" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32869992" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.32869992" />
+      <window_info anchor="right" x="26" y="248" width="326" height="176" id="Structure" order="5" sideWeight="0.50141644" side_tool="true" type="WINDOWED" weight="0.26655763" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27539343" />
@@ -394,21 +668,49 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< Updated upstream
     <MESSAGE value="add string dir abd files" />
     <option name="LAST_COMMIT_MESSAGE" value="add string dir abd files" />
+=======
+    <MESSAGE value="lambda expr study" />
+    <MESSAGE value="add linklist" />
+    <MESSAGE value="refactor dir" />
+    <MESSAGE value="add callback" />
+    <MESSAGE value="modify linked list and binary tree" />
+    <MESSAGE value="modify common.h" />
+    <MESSAGE value="add LRUCache" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LRUCache" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
+>>>>>>> Stashed changes
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sort&amp;search/search/BinarySearch.h</url>
-          <line>28</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/swordToOffer/StackToQueue.h</url>
+          <line>26</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/swordToOffer/StackToQueue.h</url>
+          <line>32</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/swordToOffer/StackToQueue.h</url>
+          <line>33</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/swordToOffer/StackToQueue.h</url>
+          <line>16</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/leetcode/ThreeSum.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -439,10 +741,102 @@
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
             <element signature="e#111#130#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/leetcode/LRU.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1908">
+          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+          <folding>
+            <element signature="e#95#114#0" expanded="true" />
+            <element signature="e#312#331#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/LinkedList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="117" column="30" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
+          <folding>
+            <element signature="e#108#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/BrokenCalc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#109#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ostream">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream.tcc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6444">
+          <caret line="358" column="31" selection-start-line="358" selection-start-column="31" selection-end-line="358" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iostream">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iosfwd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2736">
+          <caret line="152" column="40" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/include/string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/shared_ptr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/shared_ptr_base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6192">
+          <caret line="344" column="24" selection-start-line="344" selection-start-column="24" selection-end-line="344" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Timer.h" />
+    <entry file="file://$PROJECT_DIR$/Timer.cpp" />
+    <entry file="file://$PROJECT_DIR$/timercpp.h" />
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/thread">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+          <folding>
+            <element signature="e#1282#1299#0" expanded="true" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/sort&amp;search/search/BinarySearch.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -508,6 +902,58 @@
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="e#342#354#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/tuple">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9954">
+          <caret line="553" column="10" selection-start-line="553" selection-start-column="10" selection-end-line="553" selection-end-column="10" />
+          <folding>
+            <element signature="e#17852#17875#0" expanded="true" />
+            <element signature="e#18120#18137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/MyString.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
+          <folding>
+            <element signature="e#105#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+          <folding>
+            <element signature="e#1941#2047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="92" column="48" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+          <folding>
+            <element signature="e#3801#3835#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/CallBack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#104#123#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -521,6 +967,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/greedyalgorithms/MaxProfits.h">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="120">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
@@ -573,12 +1020,76 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/bin/cmake/mac/share/cmake-3.13/Modules/Platform/Darwin-Initialize.cmake">
+=======
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf_iterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="368" column="4" selection-start-line="368" selection-start-column="4" selection-end-line="368" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swordToOffer/MaxestSubArr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swordToOffer/LenMoreHalf.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swordToOffer/StackToQueue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="35" selection-start-line="35" selection-end-line="36" />
+          <folding>
+            <element signature="e#112#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swordToOffer/BinaryTree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swordToOffer/ClockWisePrint.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/string/LongestConsecutive.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/string/TwoSum.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-429">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/note/base.md">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="124" selection-start-line="124" selection-end-line="124" />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$APPLICATION_HOME_DIR$/bin/cmake/mac/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -592,6 +1103,14 @@
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#43#60#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/Common.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#100#119#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -605,6 +1124,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="105">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
@@ -614,12 +1134,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
+=======
+        <state relative-caret-position="-123">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#100#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/iterator">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -633,9 +1158,169 @@
           <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/leetcode/palindromeNumber.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#523#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/MinGW/include/stdlib.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648">
+          <folding>
+            <element signature="e#14812#30031#0" expanded="true" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_map.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/aligned_buffer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="491" selection-start-line="491" selection-end-line="491" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="466" selection-start-line="466" selection-end-line="466" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15570">
+          <caret line="865" selection-start-line="865" selection-end-line="865" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/interview/amazon/GetActorNames.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#312#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27486">
+          <caret line="1527" selection-start-line="1527" selection-end-line="1527" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15138">
+          <caret line="841" selection-start-line="841" selection-end-line="841" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/dayOfWeek.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#42#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#312#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/printInOrder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_LRUCache.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
