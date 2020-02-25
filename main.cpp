@@ -1,4 +1,8 @@
 /*
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> origin/master
  * https://leetcode.com/problems/print-zero-even-odd/
  * */
 #include <memory>
@@ -81,6 +85,7 @@ public:
         }
     }
 };
+
 
 int main()
 {

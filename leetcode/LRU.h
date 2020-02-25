@@ -112,6 +112,8 @@ int main()
     cout << lru->get(4) << endl;
     cout << lru->get(4) << endl;
     cout << lru->get(1) << endl;
+
+    delete lru;
     return 0;
 }
 
