@@ -1,0 +1,5 @@
+g++  -fsanitize=thread main.cpp -g
+data race
+
+
+g++ -g main.cpp  -o thread_helgrind -lpthread

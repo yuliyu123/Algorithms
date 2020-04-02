@@ -5,7 +5,10 @@
 #ifndef ALGORITHMMS_BINARYTREE_H
 #define ALGORITHMMS_BINARYTREE_H
 
-#include "Common.h"
+#include <queue>
+//#include "Common.h"
+
+using namespace std;
 
 struct BinaryNode
 {
@@ -59,6 +62,23 @@ void printBinTree(BinaryNode* root)
     {
 //        std::cout << "this tree left child data is: " << root->rightTree->data << std::endl;
         printBinTree(root->rightTree);
+    }
+}
+
+void levelTraverse(BinaryNode* node)
+{
+    BinaryNode* p = node;
+    std::queue<BinaryNode*> treeQueue;
+    treeQueue.push(p);
+
+    while (!treeQueue.empty())
+    {
+        p = treeQueue.front();
+        treeQueue.pop();
+        cout << p->data << endl;
+
+        if (p->leftTree) treeQueue.push(p->leftTree);
+        if (p->rightTree) treeQueue.push(p->rightTree);
     }
 }
 

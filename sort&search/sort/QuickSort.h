@@ -57,3 +57,58 @@ private:
 //
 //    return 0;
 //}
+
+
+// quickSort version 2
+using namespace std;
+
+int partition(vector<int>& data, int left, int right)
+{
+    int key = data[left];
+    while (left < right)
+    {
+        while (left < right && key <= data[right])
+        {
+            --right;
+        }
+        if (left < right && key > data[right])
+        {
+            data[left++] = data[right];
+        }
+
+        while (left < right && data[left] <= key)
+        {
+            ++left;
+        }
+        if (left < right && data[left] > key)
+        {
+            data[right--] = data[left];
+        }
+    }
+    data[left] = key;
+    return left;
+}
+
+void quickSort(vector<int>& data, int left, int right)
+{
+    if (left >= right)
+    {
+        return;
+    }
+
+    int middle = 0;
+    middle = partition(data, left, right);
+    quickSort(data, left, middle - 1);
+    quickSort(data, middle + 1, right);
+}
+
+int main()
+{
+    vector<int> v = {2, 3, 6, 1, 9};
+    quickSort(v, 0, v.size() - 1);
+
+    std::for_each(v.cbegin(), v.cend(), [](int data)
+    {
+        cout << "data: " << data << endl;
+    });
+}
