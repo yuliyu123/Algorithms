@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/looperX/CLionProjects/Algorithms/main.cpp
+iostream
+-
+queue
+-
+thread
+-
+chrono
+-
+stdio.h
+-
+unistd.h
+-
+
