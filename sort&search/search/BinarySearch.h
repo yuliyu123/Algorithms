@@ -5,6 +5,8 @@
 #ifndef ALGORITHMMS_BINARYSORT_H
 #define ALGORITHMMS_BINARYSORT_H
 
+#include <vector>
+
 class BinarySearch
 {
 public:

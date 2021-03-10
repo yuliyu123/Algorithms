@@ -15,7 +15,7 @@ public:
         auto walker = head;
         auto runner = head;
 
-        while (runner && runner->next)
+        while (runner && runner->next) // runner->next可能是空指针，那么runner->next->next会挂掉
         {
             walker = walker->next;
             runner = runner->next->next;
@@ -28,3 +28,32 @@ public:
         return false;
     }
 };
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+​// 空间复杂度O(1), head充当慢节点，只有一个runner新节点
+class Solution {
+public:
+    bool hasCycle(ListNode *head) {
+        if (!head) return false;
+
+        auto runner = head;
+        while (runner && runner->next)
+        {
+            head = head->next;
+            runner = runner->next->next;
+            if (head == runner)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+};
+

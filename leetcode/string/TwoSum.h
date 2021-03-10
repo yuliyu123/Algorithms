@@ -21,33 +21,6 @@
 
 using namespace std;
 
-//  二次哈希算法, O(n) = n, T(n) = n
-//class Solution {
-//public:
-//    vector<int> twoSum(vector<int>& nums, int target)
-//    {
-//        unordered_map<int, int> map;
-//        vector<int> result;
-//
-//        for (int i = 0; i < nums.size(); i++)
-//        {
-//            map[nums[i]] = i;
-//        }
-//
-//        for (int i = 0; i < nums.size(); i++)
-//        {
-//            const int gap = target - nums[i];
-//            if (map.find(gap) != map.end() && map[gap] > i)
-//            {
-//                result.push_back(i);
-//                result.push_back(map[gap]);
-//                break;
-//            }
-//        }
-//        return result;
-//    }
-//};
-
 
 // 一次哈希, 边遍历，边放入map中, 该效率最高， O(n) = n, T(n) = n
 class Solution {
