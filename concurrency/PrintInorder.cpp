@@ -1,64 +1,59 @@
-//
-// Created by looperX on 2019-10-31.
-//https://leetcode.com/problems/print-in-order/submissions/
-//
-#include <memory>
+/*
+ * The same instance of Foo will be passed to three different threads.
+ * Thread A will call first(), thread B will call second(), and thread C will call third().
+ * Design a mechanism and modify the program to ensure that second() is executed after first(),
+ * and third() is executed after second().
+ * */
+
 #include <iostream>
-#include <ostream>
 #include <string>
-#include <iterator>
-#include <sstream>
-#include <algorithm>
-#include <functional>
+#include <thread>
 #include <mutex>
+#include <unordered_map>
+#include <vector>
 #include <condition_variable>
 
 using namespace std;
 
-class Foo {
-private:
-    volatile int count_ = 0; // disallow compiler to optimize count_
-    std::mutex mtx_;
-    std::condition_variable cv_;
-
+class Foo
+{
+    mutex m;
+    condition_variable cv;
+    volatile int counter = 0;
 public:
-
     Foo() {
 
     }
 
-    void first(function<void()> printFirst) {
-
+    void first(function<void()> printFirst)
+    {
         // printFirst() outputs "first". Do not change or remove this line.
         printFirst();
-        count_++;
-        cv_.notify_all(); // thread A notify all threads
+        counter++;
+        cv.notify_all();
     }
 
-    void second(function<void()> printSecond) {
-        std::unique_lock<std::mutex> lk(mtx_);
-        cv_.wait(lk, [&]() // thread B is notified.
-        {
-            return count_ == 1;
-        });
-
+    void second(function<void()> printSecond)
+    {
+        unique_lock<mutex> l(m);
+        cv.wait(l, [&]{ return counter == 1;});
         // printSecond() outputs "second". Do not change or remove this line.
         printSecond();
-        count_++;
-        cv_.notify_all(); // notify thread C
-        lk.unlock();
+        counter++;
+        cv.notify_all();
     }
 
-    void third(function<void()> printThird) {
-        std::unique_lock<std::mutex> lk(mtx_);
-        cv_.wait(lk, [&]() // notify thread C
-        {
-            return count_ == 2;
-        });
-
+    void third(function<void()> printThird)
+    {
+        unique_lock<mutex> l(m);
+        cv.wait(l, [&]{ return counter == 2;});
         // printThird() outputs "third". Do not change or remove this line.
         printThird();
-        lk.unlock();
     }
 };
 
+
+int main()
+{
+
+}
