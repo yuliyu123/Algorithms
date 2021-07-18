@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/Users/looperX/CLionProjects/Algorithms/ds/UnionFind.h
+
 /Users/looperX/CLionProjects/Algorithms/main.cpp
 iostream
 -
@@ -19,4 +21,6 @@ vector
 -
 math.h
 -
+ds/UnionFind.h
+/Users/looperX/CLionProjects/Algorithms/ds/UnionFind.h
 
