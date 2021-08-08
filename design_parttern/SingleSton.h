@@ -11,10 +11,11 @@
 #include <iostream>
 #include <mutex>
 
-
 class SingleSton
 {
 public:
+    SingleSton(const SingleSton& lhs) = delete;
+    SingleSton operator=(const SingleSton& lhs) = delete;
     SingleSton(){ }
     static SingleSton* getInstance()
     {
@@ -31,7 +32,7 @@ public:
 
 private:
     static SingleSton* instance_;
-    std::mutex mtx_;
+    static std::mutex mtx_;
 };
 
 

@@ -1,21 +1,67 @@
-#include <iostream>
-#include <queue>
-#include <string>
-#include <algorithm>
-#include <vector>
-#include <math.h>
-#include "ds/UnionFind.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-using namespace std;
-
-int main(void)
+typedef struct  LNode
 {
-    UnionFind uf(6);
-    cout << uf.isConnected(1, 5) << endl;
-    uf.unionNode(1, 5);
-    cout << uf.find(1) << endl;
-    cout << uf.find(5) << endl;
-    cout << uf.find(6) << endl;
-    cout << uf.isConnected(1, 5) << endl;
-    return 0;
+    int data;
+    LNode *next;
+}LNode,*LinkList;
+
+//creat a LinkList with head
+bool creatLinklist(LinkList&L, int n)
+{
+    LinkList p,q;
+    L=(LNode*)malloc(n*sizeof(LNode));
+    if(!L)
+        return false;
+    q=L;
+    for(int i=1;i<=n;i++)
+    {
+        p=(LNode*)malloc(sizeof(LNode));
+        scanf("%d",&p->data);
+        L->next=p;
+        L=L->next;
+    }
+    p->next=NULL;
+    L=q;
+    return true;
+}
+
+//delete a Node in a single/forward Linklist
+bool LinklistDelete(LinkList &p)
+{
+    if (!p) return false;
+    LinkList q = p->next;
+    if (!q) return false;
+
+    p->data = q->data;
+    p->next = q->next;
+    free(q);
+    return true;
+}
+
+int main()
+{
+    LinkList Llist,p,t;
+    int k;
+    int len;
+    int elemet;
+    int position;
+    printf("input the number of LinkList to be created: ");
+    scanf("%d",&k);
+    creatLinklist(Llist, k);
+    printf("\n");
+    t=Llist;
+    for(int i=0;i<k-4;i++)
+        t=t->next;// random a Node
+    LinklistDelete(t);
+    printf("output the new LinkList:\n");
+    p=Llist->next;
+    while(p)
+    {
+        printf("%d ",p->data);
+        p=p->next;
+    }
+    printf("\n");
+    free(Llist);
 }

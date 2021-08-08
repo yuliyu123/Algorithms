@@ -19,7 +19,7 @@ public:
             slow  = slow->next;
             fast  = fast->next->next;
             
-            // 相交点一定在环上面，此让从头来的新节点与slow节点第一次相交的地方就是环的入口
+            // 相交点一定在环上面，此时从头来的新节点与slow节点第一次相交的地方就是环的入口
             if (slow == fast)
             {
                 auto newSlow = head;

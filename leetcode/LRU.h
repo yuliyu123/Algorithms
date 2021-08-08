@@ -18,19 +18,6 @@
 
 using namespace std;
 
-#include <iostream>
-#include <memory>
-#include <string>
-#include <functional>
-#include <map>
-#include <stdio.h>
-#include <string.h>
-#include <unordered_map>
-#include <list>
-#include <algorithm>
-
-using namespace std;
-
 class LRUCache
 {
     struct Node

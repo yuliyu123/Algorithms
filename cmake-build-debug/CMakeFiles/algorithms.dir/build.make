@@ -60,15 +60,15 @@ include CMakeFiles/algorithms.dir/flags.make
 CMakeFiles/algorithms.dir/main.cpp.o: CMakeFiles/algorithms.dir/flags.make
 CMakeFiles/algorithms.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/looperX/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algorithms.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithms.dir/main.cpp.o -c /Users/looperX/CLionProjects/Algorithms/main.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithms.dir/main.cpp.o -c /Users/looperX/CLionProjects/Algorithms/main.cpp
 
 CMakeFiles/algorithms.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algorithms.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/looperX/CLionProjects/Algorithms/main.cpp > CMakeFiles/algorithms.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/looperX/CLionProjects/Algorithms/main.cpp > CMakeFiles/algorithms.dir/main.cpp.i
 
 CMakeFiles/algorithms.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithms.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/looperX/CLionProjects/Algorithms/main.cpp -o CMakeFiles/algorithms.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/looperX/CLionProjects/Algorithms/main.cpp -o CMakeFiles/algorithms.dir/main.cpp.s
 
 # Object files for target algorithms
 algorithms_OBJECTS = \
